@@ -1,0 +1,31 @@
+.uk-padding-small{
+  padding: 25px;
+}
+
+// Definiendo colores personalizados
+.uk-button-new-item{
+  background-color: #218838;
+  color: #fff;
+}
+.uk-button-new-student{
+  background-color: $global-blue-color;
+  color: #fff;
+}
+
+// Definiendo el tipo de fuente en clases
+
+.light-word{
+  font-family: $global-font-light;
+}
+.regular-word{
+  font-family: $global-font-regular;
+}
+.medium-word{
+  font-family: $global-font-medium;
+}
+.semibold-word{
+  font-family: $global-font-semibold;
+}
+.bold-word{
+  font-family: $global-font-bold;
+}

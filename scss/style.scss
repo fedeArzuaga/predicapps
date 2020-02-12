@@ -1,0 +1,54 @@
+@import "variables";
+@import "fuente";
+@import "custom";
+
+*{
+  font-family: $global-font-regular !important;
+}
+.tm-active{
+  background: $global-darkblue-color;
+}
+
+body{
+
+  & > .custom-container{
+    min-height: 50vh;
+  }
+
+}
+
+.custom-container{
+  background: $global-muted-color;
+  padding: $global-margin-small $global-margin-medium;
+  min-height: 100vh;
+
+  #revisitasContainer{
+    max-height: 70vh;
+    overflow: auto;
+  }
+
+  #removeButton{
+    cursor: pointer;
+  }
+  
+  [uk-close]{
+    svg{
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+}
+
+.bg-not-content{
+  background-image: url("../images/bg-not-content.png");
+  background-color: $global-muted-color;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+
+  @media screen and (min-width: 640px){
+    background-size: 700px;
+  }
+
+}
